@@ -26,9 +26,3 @@ function clearLoveCallbacks()
     love.mousereleased = nil
     love.update = nil
 end
-
-function love.keypressed(key, scancode, isrepeat)
-    if key == "escape" then
-        love.event.quit()
-    end
-end
